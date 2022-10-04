@@ -5,8 +5,10 @@ Sách Tiếng Việt trên Kobo vẫn có thể đọc được khi chọn font 
 ## Thay thế font hệ thống
 
 1. Kết nối Kobo với máy tính.
-2. Tải **KoboRoot.tgz** [tại đây](https://github.com/lelinhtinh/kobo-tieng-viet/releases/latest) và chép vào thư mục **.kobo**.
-3. Thực hiện **eject ổ USB** để ngắt kết nối Kobo an toàn, tránh lỗi dữ liệu. Chờ một lúc để máy khởi động lại.
+2. Tải kobo firmware [tại đây](https://pgaskin.net/KoboStuff/kobofirmware.html)
+3. Giải nén file zip và dùng 7zip để mở **KoboRoot.tgz**, sau copy các font trong `usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/` vào cùng đường dẫn trong file nén.
+4. Copy file **KoboRoot.tgz** đã sửa vào thư mục `.kobo`
+5. Thực hiện **eject ổ USB** để ngắt kết nối Kobo an toàn, tránh lỗi dữ liệu. Chờ một lúc để máy khởi động lại.
 
 ## Cài từ điển Anh-Việt
 
